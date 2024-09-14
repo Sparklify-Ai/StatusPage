@@ -5,7 +5,18 @@ sites: # List of endpoints to track
     url: https://www.google.com
 status-website:
   baseUrl: /StatusPage # where "repo" is your repository name
-  name: Sparklify Ai
-  logoUrl: https://i.imgur.com/DGJEUoX.png
-  favicon: https://i.imgur.com/DGJEUoX.png
+  name: Sparklify Ai Status
+  logoUrl: https://cdn.glitch.global/898bdc70-6b18-4456-a888-b1411c42afda/sparkles
+  favicon: https://cdn.glitch.global/898bdc70-6b18-4456-a888-b1411c42afda/sparkles
   customHeadHtml: '<script src="https://cdn.counter.dev/script.js" data-id="76682767-fda2-450b-a1c9-7da71a1785a6" data-utcoffset="-4"></script>'
+  navbar:
+    - title: Website
+      href: https://sparklify.glitch.me/
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
