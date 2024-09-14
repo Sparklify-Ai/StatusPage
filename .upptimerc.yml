@@ -13,7 +13,7 @@ status-website:
     - name: "title"
       content: "Is Sparklify Ai down? Check the Sparklify Ai status page."
     - name: "keywords"
-      content: "Sparklify Ai, Sparklify Ai Status",
+      content: "Sparklify Ai, Sparklify Ai Status"
     - name: "robots"
       content: "noindex, nofollow"
     - name: "language"
