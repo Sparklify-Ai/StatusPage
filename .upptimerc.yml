@@ -6,3 +6,4 @@ sites: # List of endpoints to track
 status-website:
   baseUrl: /StatusPage # where "repo" is your repository name
   name: Sparklify Ai
+  logoUrl: https://i.imgur.com/DGJEUoX.png
