@@ -20,6 +20,14 @@ status-website:
       content: "English"
     - name: "author"
       content: "Sparklify Ai"
+    - name: "og:title"
+      content: "Sparklify Ai Status Page"
+    - name: "og:description"
+      content: "Is Sparklify Ai down? Check the Sparklify Ai status page."
+    - name: "og:url"
+      content: "https://sparklify-ai.github.io/StatusPage/"
+    - name: "theme-color"
+      content: "#3533cd"
   robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Website
